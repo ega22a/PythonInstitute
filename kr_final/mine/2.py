@@ -8,4 +8,4 @@ for value in _list:
     if (str(value)[-1] == '3'):
         _subList.append(value)
 print('Обработанный список:')
-print(sorted(_subList))
+print(sorted(_subList, reverse = True))

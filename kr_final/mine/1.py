@@ -14,4 +14,4 @@ def SumOfLastA(_path = ''):
     else:
         return 'Передан пустой путь до файла'
 
-print(SumOfLastA('text/text.txt'))
+print(SumOfLastA('/home/george/Документы/python/kr_final/mine/text/text.txt'))
